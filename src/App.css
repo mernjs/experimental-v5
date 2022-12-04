@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(245, 245, 245);
+}
+
+* {
+  font-family: 'Montserrat';
+  font-display: swap;
+}
+
+a {
+  cursor: pointer;
+  color: #4c84ff;
+  font-size: 18px;
+  letter-spacing: 0.1px;
+  line-height: 25px;
+  padding: 0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #494d55;
+}
+
+#append-popup {
+  overflow: hidden;
+  position: fixed;
+  z-index: 9999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10%;
+  left: 30%;
+  width: 600px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#append-popup iframe {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
