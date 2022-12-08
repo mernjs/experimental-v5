@@ -15,7 +15,7 @@ const Footer = () => {
                 rel="noreferrer"
               >
                 {' '}
-                Create MERN App
+                MERN App
               </a>
             </span>
             <span style={{ float: 'right', lineHeight: '60px' }}>

@@ -37,16 +37,14 @@
 		EE04E4DB293E750C00315748 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = EE04E48E293E750700315748 /* background.js */; };
 		EE04E4DC293E750C00315748 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = EE04E48F293E750700315748 /* content.js */; };
 		EE04E4DD293E750C00315748 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = EE04E48F293E750700315748 /* content.js */; };
-		EE5002B52941154200C10411 /* bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = EE5002B42941154100C10411 /* bundle.js */; };
-		EE5002B62941154200C10411 /* bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = EE5002B42941154100C10411 /* bundle.js */; };
-		EE5002B82941187000C10411 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = EE5002B72941187000C10411 /* Style.css */; };
-		EE5002B92941187000C10411 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = EE5002B72941187000C10411 /* Style.css */; };
 		EE7A9175293E80950014F275 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = EE7A9173293E80930014F275 /* popup.js */; };
 		EE7A9176293E80950014F275 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = EE7A9173293E80930014F275 /* popup.js */; };
 		EE7A9177293E80950014F275 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = EE7A9174293E80940014F275 /* popup.css */; };
 		EE7A9178293E80950014F275 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = EE7A9174293E80940014F275 /* popup.css */; };
 		EE7A917A293E80C50014F275 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = EE7A9179293E80C40014F275 /* popup.html */; };
 		EE7A917B293E80C50014F275 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = EE7A9179293E80C40014F275 /* popup.html */; };
+		EEFE059B294267EB009C0B1B /* build in Resources */ = {isa = PBXBuildFile; fileRef = EEFE059A294267E9009C0B1B /* build */; };
+		EEFE059C294267EC009C0B1B /* build in Resources */ = {isa = PBXBuildFile; fileRef = EEFE059A294267E9009C0B1B /* build */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,11 +116,10 @@
 		EE04E4BF293E750C00315748 /* SafariAuthExtension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SafariAuthExtension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE04E4C4293E750C00315748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE04E4C5293E750C00315748 /* SafariAuthExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafariAuthExtension.entitlements; sourceTree = "<group>"; };
-		EE5002B42941154100C10411 /* bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = bundle.js; path = "React (App)/build/bundle.js"; sourceTree = SOURCE_ROOT; };
-		EE5002B72941187000C10411 /* Style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = Style.css; path = "React (App)/build/Style.css"; sourceTree = SOURCE_ROOT; };
 		EE7A9173293E80930014F275 /* popup.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = popup.js; path = "React (App)/build/popup.js"; sourceTree = SOURCE_ROOT; };
 		EE7A9174293E80940014F275 /* popup.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = popup.css; path = "React (App)/build/popup.css"; sourceTree = SOURCE_ROOT; };
 		EE7A9179293E80C40014F275 /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		EEFE059A294267E9009C0B1B /* build */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = build; path = "React (App)/build"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,8 +180,7 @@
 		EE04E480293E748900315748 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EE5002B72941187000C10411 /* Style.css */,
-				EE5002B42941154100C10411 /* bundle.js */,
+				EEFE059A294267E9009C0B1B /* build */,
 				EE04E481293E748900315748 /* Main.html */,
 				EE04E483293E748900315748 /* Icon.png */,
 				EE04E485293E748900315748 /* Script.js */,
@@ -391,14 +387,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEFE059B294267EB009C0B1B /* build in Resources */,
 				EE04E4C8293E750C00315748 /* Icon.png in Resources */,
-				EE5002B82941187000C10411 /* Style.css in Resources */,
 				EE04E4A0293E750900315748 /* LaunchScreen.storyboard in Resources */,
 				EE04E4C6293E750C00315748 /* Main.html in Resources */,
 				EE04E4CC293E750C00315748 /* Script.js in Resources */,
 				EE04E4D0293E750C00315748 /* Assets.xcassets in Resources */,
 				EE04E4A3293E750900315748 /* Main.storyboard in Resources */,
-				EE5002B52941154200C10411 /* bundle.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,8 +406,7 @@
 				EE04E4CD293E750C00315748 /* Script.js in Resources */,
 				EE04E4D1293E750C00315748 /* Assets.xcassets in Resources */,
 				EE04E4C7293E750C00315748 /* Main.html in Resources */,
-				EE5002B92941187000C10411 /* Style.css in Resources */,
-				EE5002B62941154200C10411 /* bundle.js in Resources */,
+				EEFE059C294267EC009C0B1B /* build in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -36,8 +36,7 @@ if (fileSystem.existsSync(secretsPath)) {
 const options = {
   mode: process.env.NODE_ENV || 'development',
   entry: {
-    popup: path.join(__dirname, 'src', 'index.js'),
-    bundle: path.join(__dirname, 'src', 'index.js')
+    popup: path.join(__dirname, 'src', 'index.js')
   },
   output: {
     filename: '[name].js',
@@ -103,14 +102,6 @@ const options = {
       patterns: [
         {
           from: path.join(__dirname, 'src', 'popup.css'),
-          to: path.join(__dirname, 'build'),
-        },
-      ],
-    }),
-    new CopyWebpackPlugin({
-      patterns: [
-        {
-          from: path.join(__dirname, 'src', 'Style.css'),
           to: path.join(__dirname, 'build'),
         },
       ],
