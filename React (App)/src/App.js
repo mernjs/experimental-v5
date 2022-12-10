@@ -35,6 +35,9 @@ PrivateRoute.propTypes = {
 
 const AppRoutes = () => {
   const user = useSelector((state) => state.auth.user);
+  const ua = navigator.userAgent;
+  console.log('User ==>>>', user)
+  console.log('User ==>>>', webkitURL)
   return (
     <Router history={history}>
       <Routes>
@@ -42,15 +45,6 @@ const AppRoutes = () => {
           exact={true}
           path="*"
           element={user ? <Dashboard /> : <Login />}
-        />
-        <Route
-          exact={true}
-          path="/"
-          element={
-            <PrivateRoute>
-              <Dashboard />
-            </PrivateRoute>
-          }
         />
         <Route
           exact={true}
